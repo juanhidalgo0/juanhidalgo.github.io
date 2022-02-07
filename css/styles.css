@@ -29,7 +29,7 @@ body{
 ::-webkit-scrollbar-thumb{
     background: rgb(46, 46, 46);
     border-radius: 100vw;
-    border: .25em solid rgb(211, 211, 211);
+    border: .15em solid rgb(211, 211, 211);
 }
 ::-webkit-scrollbar-thumb:hover{
     background: #1a1a1a;
