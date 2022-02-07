@@ -104,6 +104,10 @@ function lng() {
         document.getElementById('li-2-2').innerHTML = "Sobre mi";
         document.getElementById('li-3-3').innerHTML = "Contacto";
         document.getElementById('li-4-4').innerHTML = "Pie";
+        document.getElementById('li-1').innerHTML = "Inicio";
+        document.getElementById('li-2').innerHTML = "Sobre mi";
+        document.getElementById('li-3').innerHTML = "Contacto";
+        document.getElementById('li-4').innerHTML = "Pie";
 
         document.getElementById('contact-me').innerHTML = "¡Contactame!";
         document.getElementById('fonts-of-contact').innerHTML = "Mis principales fuentes de contacto..."; 
