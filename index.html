@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Juan Hidalgo</title>
+</head>
+<body>
+    
+<div class="contenedor">
+
+    <section>
+        <div class="set">
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+        </div>
+        <div class="set set2">
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+        </div>
+        <div class="set set3">
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+            <div><img src="/img/leaves1.png"></div>
+            <div><img src="/img/leaves2.png"></div>
+            <div><img src="/img/leaves3.png"></div>
+            <div><img src="/img/leaves4.png"></div>
+        </div>
+    </section>
+
+
+
+
+
+    <div id="navigator">
+
+        <div class="menu-right-top">
+        
+            <div class="switch-box">
+                <h3 id="switch-text" class="turnBlack">Switch<br>to English</h3>
+                <label>
+                    <input type="checkbox" id="language-btn" onclick="lng()">
+                    <span></span>
+                    <i class="indicator"></i>
+                </label>
+            </div>
+            <div class="lightmode-box"><button id="lightmode-btn" onclick="lights()"><i class="far fa-lightbulb" id="light-icon"></i></button></div>
+        </div> 
+
+        <div class="nav">
+            <ul>
+                <li><a id="li-1" class="turnBlack" href="#">Inicio</a></li>
+                <li><a id="li-2" class="turnBlack" href="#">Sobre mi</a></li>
+                <li><a id="li-3" class="turnBlack" href="#">Contacto</a></li>
+                <li><a id="li-4" class="turnBlack" href="#">Pie</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="navigator-desktop">
+
+    <div class="menu-right-top">
+        
+        <div class="switch-box">
+            <h3 id="switch-text" class="turnBlack">Switch<br>to English</h3>
+            <label>
+                <input type="checkbox" id="language-btn" onclick="lng()">
+                <span></span>
+                <i class="indicator"></i>
+            </label>
+        </div>
+        <div class="lightmode-box"><button id="lightmode-btn" onclick="lights()"><i class="far fa-lightbulb" id="light-icon2"></i></button></div>
+    </div> 
+
+        <div class="nav">
+            <ul>
+                <li><a id="li-1" class="turnBlack" href="#">Inicio</a></li>
+                <li><a id="li-2" class="turnBlack" href="#">Sobre mi</a></li>
+                <li><a id="li-3" class="turnBlack" href="#">Contacto</a></li>
+                <li><a id="li-4" class="turnBlack" href="#">Pie</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="menu-btn-box">
+        <div class="menu-btn " onclick="show()">
+            <span class="rectangle-top"    id="btn-span-1"></span>
+            <span class="rectangle-mid"    id="btn-span-2"></span>
+            <span class="rectangle-bottom" id="btn-span-3"></span>
+        </div>
+    </div>
+
+    <div id="_home"class="home">
+        
+        <div class="home_TextBox">
+            <h2 id="homeText-1" class="turnBlack">Hola,</h2>
+            <h3 id="homeText-2" class="turnBlack">soy Juan Hidalgo</h3>
+            <h3 id="homeText-3" class="turnBlack">Desrrollador Web</h3>
+        </div>
+    </div>
+
+    <div class="sobreMi" id="_sobreMi">
+        <div class="sobreMi_TextBox">
+            <h3 class="turnBlack" id="sobreMi_text">Mi nombre es Juan Hidalgo, soy de Argentina y soy Desarrollador Web, amante de la tecnología y la música. Siempre que puedo estoy haciendo proyectos en CSS o JS e intentando aprender nuevas tecnologías. Paso mi tiempo libre expandiendo mis conocimientos en programación, y cuando no estoy programando, me gusta tocar el Bajo</h3>
+        </div>
+    </div>
+
+    <div class="contactame" id="_contactame">
+        <div class="contactame_TextBox">
+            <h2 class="turnBlack" id="contact-me">¡Contactáme!</h2>
+            <h3 class="turnBlack" id="fonts-of-contact">Mis principales fuentes de contacto...</h3>
+        </div>
+
+        <div class="socials_box">
+            <ul>
+                <li><a href="#" class="turnBlack"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"class="turnBlack"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"class="turnBlack"><i class="far fa-envelope"></i></a></li>
+                <li><a href="#"class="turnBlack"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+    
+    </div>
+
+
+
+</div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
