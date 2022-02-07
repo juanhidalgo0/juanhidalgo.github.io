@@ -154,14 +154,17 @@ label input:checked ~ .indicator::before{
     list-style: none;
 }
 #navigator-desktop ul li{
-    padding: 1rem;
+    margin: .5rem;
     z-index: 1001;
 }
 #navigator-desktop ul li a{
+    padding: 1rem;
     text-decoration: none;
     font-size: 1rem;
+    position: relative;
     color: #fff;
 }
+
 
 
 
@@ -250,8 +253,8 @@ label input:checked ~ .indicator::before{
 /*---------------HOME--------------*/
 section{
     position: absolute;
-    width: 100%;
-    height: 100vh;
+    width: 99%;
+    height: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -349,6 +352,7 @@ section .set div:nth-child(8){
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: start;
 }
 .home_TextBox{
     width: 70%;
@@ -377,6 +381,7 @@ section .set div:nth-child(8){
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: start;
 }
 .sobreMi_TextBox{
     width: 70%;
@@ -398,6 +403,7 @@ section .set div:nth-child(8){
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    scroll-snap-align: start;
 }
 .contactame_TextBox{
     width: 100%;

@@ -85,9 +85,6 @@ function lng() {
         document.getElementById('contact-me').innerHTML = "Contact me!";
         document.getElementById('fonts-of-contact').innerHTML = "My principal sources of contact..."; 
 
-        show();
-
-
 
     } else {
         document.getElementById('switch-text').innerHTML = "Switch<br>to English";
@@ -113,6 +110,6 @@ function lng() {
         document.getElementById('contact-me').innerHTML = "¡Contactame!";
         document.getElementById('fonts-of-contact').innerHTML = "Mis principales fuentes de contacto..."; 
 
-        show();
+
     }
 }
