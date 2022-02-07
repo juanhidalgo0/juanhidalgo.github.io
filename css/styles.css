@@ -23,6 +23,8 @@ body{
 }
 ::-webkit-scrollbar-track{
     background: rgb(211, 211, 211);
+    border-radius: 100vw;
+    margin-block: .5em;
 }
 ::-webkit-scrollbar-thumb{
     background: rgb(46, 46, 46);
