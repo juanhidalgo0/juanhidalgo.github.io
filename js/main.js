@@ -76,6 +76,10 @@ function lng() {
         document.getElementById('li-2').innerHTML = "About me";
         document.getElementById('li-3').innerHTML = "Contact";
         document.getElementById('li-4').innerHTML = "Foot";
+        document.getElementById('li-1-1').innerHTML = "Home";
+        document.getElementById('li-2-2').innerHTML = "About me";
+        document.getElementById('li-3-3').innerHTML = "Contact";
+        document.getElementById('li-4-4').innerHTML = "Foot";
 
         document.getElementById('contact-me').innerHTML = "Contact me!";
         document.getElementById('fonts-of-contact').innerHTML = "My principal sources of contact..."; 
@@ -96,10 +100,10 @@ function lng() {
         document.getElementById('sobreMi_text').innerHTML = "Mi nombre es Juan Hidalgo, soy de Argentina y soy Desarrollador Web, amante de la tecnología y la música. Siempre que puedo estoy haciendo proyectos en CSS o JS e intentando aprender nuevas tecnologías. Paso mi tiempo libre expandiendo mis conocimientos en programación, y cuando no estoy programando, me gusta tocar el Bajo";
 
 
-        document.getElementById('li-1').innerHTML = "Inicio";
-        document.getElementById('li-2').innerHTML = "Sobre mi";
-        document.getElementById('li-3').innerHTML = "Contacto";
-        document.getElementById('li-4').innerHTML = "Pie";
+        document.getElementById('li-1-1').innerHTML = "Inicio";
+        document.getElementById('li-2-2').innerHTML = "Sobre mi";
+        document.getElementById('li-3-3').innerHTML = "Contacto";
+        document.getElementById('li-4-4').innerHTML = "Pie";
 
         document.getElementById('contact-me').innerHTML = "¡Contactame!";
         document.getElementById('fonts-of-contact').innerHTML = "Mis principales fuentes de contacto..."; 
