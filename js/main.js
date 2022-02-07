@@ -62,6 +62,8 @@ function lng() {
     if (languageBtn.className == 'english') {
 
         document.getElementById('switch-text').innerHTML = "Cambiar<br>a Español";
+        document.getElementById('switch-text2').innerHTML = "Cambiar<br>a Español";
+
 
         document.getElementById('homeText-1').innerHTML = "Hi,";
         document.getElementById('homeText-2').innerHTML = "im Juan Hidalgo";
@@ -84,6 +86,8 @@ function lng() {
 
     } else {
         document.getElementById('switch-text').innerHTML = "Switch<br>to English";
+        document.getElementById('switch-text2').innerHTML = "Switch<br>to English";
+
 
         document.getElementById('homeText-1').innerHTML = "Hola,";
         document.getElementById('homeText-2').innerHTML = "soy Juan Hidalgo";

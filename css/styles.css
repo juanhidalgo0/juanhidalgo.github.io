@@ -47,7 +47,7 @@ body{
 
 
 /*---------------LANGUAGE BUTTON--------------*/
-#switch-text{
+#switch-text, #switch-text2{
     color: #fff;
 }
 .switch-box{
@@ -531,7 +531,7 @@ section .set div:nth-child(8){
         right: 8rem;
         margin: auto;
     }
-    #switch-text{
+    #switch-text2{
         position: absolute;
         font-size: 1rem;
         margin-left: 1rem;
