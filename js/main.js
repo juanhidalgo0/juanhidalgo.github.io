@@ -93,7 +93,7 @@ function lng() {
 
         document.getElementById('homeText-1').innerHTML = "Hola,";
         document.getElementById('homeText-2').innerHTML = "soy Juan Hidalgo";
-        document.getElementById('homeText-3').innerHTML = "Desrrollador Web";
+        document.getElementById('homeText-3').innerHTML = "Desarrollador Web";
 
         document.getElementById('sobreMi_text').innerHTML = "Mi nombre es Juan Hidalgo, soy de Argentina y soy Desarrollador Web, amante de la tecnología y la música. Siempre que puedo estoy haciendo proyectos en CSS o JS e intentando aprender nuevas tecnologías. Paso mi tiempo libre expandiendo mis conocimientos en programación, y cuando no estoy programando, me gusta tocar el Bajo";
 
